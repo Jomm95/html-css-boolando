@@ -11,7 +11,10 @@ body {
     width:320px;
     border: 1px solid red;
     margin-top:20px;
-    
+}
+
+.photo-container:hover {
+    background-image: url(../html-css-boolando/img/1b.webp);
 }
 
 .photo-container {
@@ -47,9 +50,9 @@ body {
 }
 
 .label {
-    padding:5px;
+    padding:4px;
     color:white;
-    font-size:12px;
+    font-size:10px;
     font-weight: bold;
 }
 .discount {
@@ -67,17 +70,21 @@ body {
 }
 
 .brand {
-    font-size:15px;
+    font-size:12px;
 }
 
 .product-name {
     font-weight:bold;
+    font-size: 15px;;
 }
 
 .discounted-price {
     color:red;
+    font-size:12px;
+    font-weight: bold;
 }
 
 .full-prize {
     text-decoration: line-through;
+    font-size:12px;
 }
