@@ -6,11 +6,14 @@ body {
 }
 
 /* regole container vari */
+
 .container {
     height:500px;
     width:320px;
     border: 1px solid red;
     margin-top:20px;
+    margin: 20px 10px 0 10px;
+    display:inline-block;
 }
 
 .photo-container:hover {
