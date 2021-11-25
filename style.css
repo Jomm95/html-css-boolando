@@ -1,0 +1,83 @@
+/* regole generali */
+body {
+    box-sizing: border-box;
+    margin:auto;
+    width:80%;
+}
+
+/* regole container vari */
+.container {
+    height:500px;
+    width:320px;
+    border: 1px solid red;
+    margin-top:20px;
+    
+}
+
+.photo-container {
+    background-image:url(../html-css-boolando/img/1.webp);
+    background-size:contain;
+    height:85%;
+    width:100%;
+    position:relative;
+}
+
+/* Contenitore dell'heart */
+.heart-container {
+    height:40px;
+    width:35px;
+    position:absolute;
+    background-color:white;
+    right:0;
+    top:20px;
+    text-align: center;
+    
+}
+
+.heart {
+    font-size:20px;
+    line-height:40px;
+}
+
+/* etichetta sconto e sostenibiltà */
+.discount-container {
+    position:absolute;
+    bottom:18px;
+    left:0px;
+}
+
+.label {
+    padding:5px;
+    color:white;
+    font-size:12px;
+    font-weight: bold;
+}
+.discount {
+    background-color:rgb(238, 49, 49) ;
+}
+
+.eco-friendlyLabel {
+    background-color: #028759;
+}
+
+/* Container dettagli del prodotto */
+
+.product-details {
+    margin-top:7px;
+}
+
+.brand {
+    font-size:15px;
+}
+
+.product-name {
+    font-weight:bold;
+}
+
+.discounted-price {
+    color:red;
+}
+
+.full-prize {
+    text-decoration: line-through;
+}
